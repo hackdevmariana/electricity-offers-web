@@ -10,7 +10,8 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/eslint',
     '@nuxt/content',
-    '@nuxt/icon'
+    '@nuxt/icon',
+    '@sidebase/nuxt-auth'
   ],
   app: {
     head: {
