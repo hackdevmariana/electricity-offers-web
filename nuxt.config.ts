@@ -11,5 +11,11 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/content',
     '@nuxt/icon'
-  ]
+  ],
+  app: {
+    head: {
+      title: 'Electricity Offers',
+      meta: [{ name: 'description', content: 'Web for electricity offers.' }],
+    },
+  },
 })
