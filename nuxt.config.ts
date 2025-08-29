@@ -11,7 +11,10 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/content',
     '@nuxt/icon',
-    '@sidebase/nuxt-auth'
+    '@sidebase/nuxt-auth',
+    '@nuxtjs/tailwindcss',
+    '@pinia/nuxt',
+    '@vite-pwa/nuxt'
   ],
   app: {
     head: {
